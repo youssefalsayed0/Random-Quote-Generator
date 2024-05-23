@@ -1,0 +1,17 @@
+@media only screen and (max-width: 992px) {
+    .landing p {
+        font-size: 30px;
+    }
+
+}
+
+@media only screen and (max-width: 767px) {
+    .landing p {
+        font-size: 25px;
+    }
+
+    .landing .quote {
+        width: 100%;
+    }
+
+}

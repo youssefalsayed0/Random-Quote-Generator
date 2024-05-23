@@ -1,0 +1,55 @@
+* {
+    box-sizing: border-box;
+}
+
+:root {
+    --main-color: #343434;
+    --color-alt: #111111;
+    --main-transition: 0.4s ease-in-out;
+    --main-padding: 100px;
+    --main-shadow: 0 13px 8px -10px rgba(0, 0, 0, 0.1);
+    --section-background: #f7f7f7;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.main-p {
+    padding: var(--main-padding) 0;
+}
+
+.landing {
+    background-image: linear-gradient(to left, #7d33ff, #b33fec), url(../imgs/message-circle-solid-svgrepo-com.svg);
+    background-size: cover;
+    background-position: center center;
+    background-blend-mode: overlay;
+    /* Optional, to blend the image with the gradient */
+}
+
+.landing .quote {
+    width: 70%;
+}
+
+.landing .icon i {
+    color: #7d33ff;
+}
+
+.landing p {
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.landing button {
+    padding: 15px 30px;
+    color: white;
+    background-color: #b33fec;
+    font-weight: 600;
+}
+
+.landing button:hover {
+    padding: 15px 30px;
+    color: #b33fec;
+    border: 1px solid #b33fec;
+}
